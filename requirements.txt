@@ -1,0 +1,10 @@
+flask
+gunicorn
+werkzeug
+langchain
+langchain-community
+langchain-ollama
+langchain-text-splitters
+langchain-chroma
+chromadb
+pypdf

@@ -1,0 +1,37 @@
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+/venv/
+./.venv/
+*.venv
+
+# Local configuration / secrets
+.env
+
+# Dependency folders (if any)
+node_modules/
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Ollama model cache (optional, to keep repo small)
+ollama_models/
+
+# Chroma vector DB
+chroma_db/
+
+# Uploaded documents
+docs/
+
+# Byte-compiled / optimized / DLL files
+*.so
