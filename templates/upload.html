@@ -1,8 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RAG Q&A</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" rel="stylesheet">
+  <style>
+    body {
+      max-width: 900px;
+      margin: 2rem auto;
+    }
 
-<!doctype html>
-<title>Upload new File</title>
-<h1>Upload new File</h1>
-<form method=post enctype=multipart/form-data>
-  <input type=file name=file>
-  <input type=submit value=Upload>
-</form>
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    }
+
+    .answer,
+    .error {
+      white-space: pre-wrap;
+    }
+
+    .card {
+      padding: 1rem 1.25rem;
+      border: 1px solid #e6e6e6;
+      border-radius: 12px;
+    }
+
+    .rows {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .muted {
+      opacity: .7;
+    }
+  </style>
+</head>
+
+<body>
+  <title>Upload new File</title>
+  <h1>Upload new File</h1>
+  <form method=post enctype=multipart/form-data>
+    <input type=file name=file>
+    <input type=submit value=Upload>
+  </form>
+</body>

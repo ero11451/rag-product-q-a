@@ -8,3 +8,6 @@ langchain-text-splitters
 langchain-chroma
 chromadb
 pypdf
+langchain-google-vertexai
+langgraph
+duckduckgo-search

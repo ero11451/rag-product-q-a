@@ -1,0 +1,35 @@
+.typing {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0rem;
+    box-sizing: border-box;
+    background: #ccc;
+    border-radius: 50%;
+
+    &.typing-1 {
+        animation: typing 3s infinite
+    }
+
+    &.typing-2 {
+        animation: typing 3s 250ms infinite
+    }
+
+    &.typing-3 {
+        animation: typing 3s 500ms infinite
+    }
+}
+
+@keyframes typing {
+    0%,
+    75%,
+    100% {
+        transform: translate(0, 0.25rem) scale(0.9);
+        opacity: 0.5;
+    }
+
+    25% {
+        transform: translate(0, -0.25rem) scale(1);
+        opacity: 1;
+    }
+}
